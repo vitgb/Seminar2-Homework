@@ -5,6 +5,8 @@
 # 5 -> 1 0 1 1 0
 # 2
 
+# Вариант 1
+
 n = int(input('Enter the number of coins: '))
 eagle = 0
 tails = 0
@@ -21,6 +23,16 @@ if eagle < tails:
 else:
     print(tails)
 
+# Вариант 2
 
+# n = int(input('Enter the number of coins: '))
+# count = 0
+# for i in range(n):
+#     side = int(input('Если орел введите "1", если решка введите "0": '))
+#     if side > 0:
+#         count += 1
 
-
+# if count <= n // 2:
+#     print (count)
+# else:
+#     print (n - count)
